@@ -52,7 +52,7 @@ const es = {
       {
         icon: "users",
         title: "Empezar por la gente",
-        body: "People/Ops sostiene procesos que usa toda la compañía, empezando por contratación. Una automatización acá no se queda en un equipo.",
+        body: "People/Ops sostiene procesos que usa toda la compañía, empezando por contratación. Una automatización aquí no se queda en un equipo.",
       },
       {
         icon: "chart",
@@ -409,7 +409,7 @@ const en: typeof es = {
 
   why: {
     label: "03 / WHY NOW",
-    title: "AI multiplies the judgment already in the room.",
+    title: "AI multiplies the judgment that already exists.",
     lead: "AI speeds up decisions someone already made. That is why the program starts with judgment and brings in the tool afterwards.",
     cards: [
       {
@@ -665,7 +665,7 @@ const en: typeof es = {
       { v: "—", k: "HOURS SAVED PER MONTH" },
       { v: "—", k: "DOCUMENTED ROI" },
     ],
-    metricsNote: "They get filled in on October 02 with the numbers each case defends at Demo Day.",
+    metricsNote: "They get filled in on October 02 with the numbers each case presents at Demo Day.",
     howTitle: "How it is measured",
     how: [
       "Live demo: each person shows their automation running.",
@@ -677,7 +677,7 @@ const en: typeof es = {
     demoBody: "Live demos, ROI per case, and runbook handover.",
     videoLabel: "MICRO-TUTORIALS",
     videoTitle: "Sixty seconds on Slack",
-    videoLead: "Every case built leaves material for a micro-tutorial: one minute on Slack that teaches something concrete about AI and that anyone can copy. Cross-cutting cases work best, because the task they solve happens to more people.",
+    videoLead: "Every case built leaves material for a micro-tutorial: one minute on Slack that teaches something concrete about AI and that anyone can copy. Cross-cutting cases work best, because more people do the task they solve.",
     videoParts: [
       { t: "0:00 to 0:10", h: "Hook", d: "A real, recognizable pain from the everyday." },
       { t: "0:10 to 0:45", h: "The solution", d: "Timelapse of the automation being built on screen." },
