@@ -312,9 +312,9 @@ const es = {
     demoTag: "DEMO DAY",
     demoDate: "02 OCT 2026 · BOGOTÁ",
     demoBody: "Demos en vivo, ROI por caso y entrega de runbooks.",
-    videoLabel: "DIFUSIÓN INTERNA",
+    videoLabel: "MICROTUTORIALES",
     videoTitle: "Sesenta segundos en Slack",
-    videoLead: "El resto de Wizeline conoce el piloto por lo que produce, no por lo que promete. Los casos transversales son el mejor material: le hablan a más gente.",
+    videoLead: "Cada caso construido deja material para un microtutorial: un minuto en Slack que enseña algo concreto de IA y que cualquiera puede replicar. Los casos transversales son los mejores, porque la tarea que resuelven le pasa a más gente.",
     videoParts: [
       { t: "0:00 a 0:10", h: "Gancho", d: "Un dolor real y reconocible del día a día." },
       { t: "0:10 a 0:45", h: "La solución", d: "Timelapse de la automatización construyéndose en pantalla." },
@@ -675,9 +675,9 @@ const en: typeof es = {
     demoTag: "DEMO DAY",
     demoDate: "OCT 02, 2026 · BOGOTÁ",
     demoBody: "Live demos, ROI per case, and runbook handover.",
-    videoLabel: "INTERNAL REACH",
+    videoLabel: "MICRO-TUTORIALS",
     videoTitle: "Sixty seconds on Slack",
-    videoLead: "The rest of Wizeline meets the pilot through what it produces, not what it promises. Cross-cutting cases are the best material: they speak to more people.",
+    videoLead: "Every case built leaves material for a micro-tutorial: one minute on Slack that teaches something concrete about AI and that anyone can copy. Cross-cutting cases work best, because the task they solve happens to more people.",
     videoParts: [
       { t: "0:00 to 0:10", h: "Hook", d: "A real, recognizable pain from the everyday." },
       { t: "0:10 to 0:45", h: "The solution", d: "Timelapse of the automation being built on screen." },

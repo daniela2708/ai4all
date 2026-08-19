@@ -38,7 +38,11 @@ Grupo descartable sin tocar lo anterior.
 - [x] 4.1 Corregir la numeración de las etiquetas de sección contra el orden real del DOM en `App.tsx:76-101`: hoy `Impact` lleva "09" y aparece 3ª, `Model` lleva "01" y aparece 5ª. ~11 strings en ES y 11 en EN
 - [x] 4.2 Mover los divisores de fase de `App.tsx:84-86` y `91-93` a `copy.ts`: los ternarios `lang === "es" ? … : …` escapan al tipado que garantiza la paridad ES/EN
 - [x] 4.4 Mover a `copy.ts` los cinco ternarios `lang === "es" ? … : …` restantes en `Hero.tsx` (aria-label de los marcos y las etiquetas IMAGEN PRINCIPAL / SECUNDARIA) y `Program.tsx` (cabeceras FECHA / CHARLA). Detectado en `/simplify`: la tarea 4.2 cerraba la misma clase de defecto solo en `App.tsx` y dejaba el resto, con lo que el escenario "Texto bilingüe fuera de copy.ts" del spec quedaba violado
-- [ ] 4.3 **Opcional.** Mover `impact.videoLabel` / `videoTitle` / `videoLead` / `videoParts` de North Star a `Ops`. Exponer el plan de promoción interna dentro de la sección de métricas es lo más vendedor de la página; en Operación se lee como plan de comunicación. Requiere tocar `App.tsx` y archivos de sección, no solo copy
+- [~] 4.3 **Descartada.** Se propuso mover `impact.videoLabel` / `videoTitle` / `videoLead` / `videoParts` de North Star a `Ops` por leerse como plan de promoción interna. Cristian aclara que el microvideo es un componente adicional de la iniciativa, no difusión, así que se queda donde está. Pendiente aparte: `videoLead` lo enmarca como alcance ("El resto de Wizeline conoce el piloto por lo que produce…") y no como entregable, que es lo que indujo la lectura errada
+
+## 4b. Reencuadre del bloque de microtutoriales
+
+- [x] 4.5 `impact.videoLabel` y `videoLead`, ES y EN: el bloque describía difusión ("DIFUSIÓN INTERNA", "El resto de Wizeline conoce el piloto por lo que produce, no por lo que promete"), pero los microvideos son contenido educativo — enseñar IA y dejar microtutoriales replicables. El copy ahora dice qué son en vez de a quién alcanzan. Efecto secundario: sale una antítesis de la capa informe, que baja de 4 a 3 y recupera holgura en el presupuesto de la regla 3
 
 ## 5. Verificación
 
