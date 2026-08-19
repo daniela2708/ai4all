@@ -71,10 +71,10 @@ colombianismos, sin britanismos ni jerga corporativa en el inglés.
 - [x] 6.6 EN `why.title`: "AI multiplies the judgment already **in the room**" pasa a "that already exists". "In the room" es idiomático y no se lee literal para quien tiene el inglés como segunda lengua, que es buena parte de Wizeline. Además no reflejaba el español
 - [x] 6.7 EN `impact.metricsNote`: "the numbers each case **defends**" pasa a "presents". Calco de "defender el ROI"
 - [x] 6.8 EN `impact.videoLead`: "because the task they solve **happens to more people**" pasa a "because more people do the task they solve". Calco de "le pasa a más gente"
-- [~] 6.9 Falso positivo descartado: "the **instrument** that prioritizes cases" parecía calco de "instrumento", pero `content.ts:367` ya traía "Cross-cutting instrument" desde antes. Es el término establecido del sitio; cambiarlo habría roto la consistencia
+- [x] 6.9 `content.ts:270` (día 3 del Challenge): "**Acá** se paga el prompting de la Fase 1" pasa a "Aquí". Es la única edición de este change en la capa manual, hecha por consistencia de neutralidad y no por registro
+- [~] 6.10 Falso positivo descartado: "the **instrument** that prioritizes cases" parecía calco de "instrumento", pero `content.ts:367` ya traía "Cross-cutting instrument" desde antes. Es el término establecido del sitio; cambiarlo habría roto la consistencia
 
 ## 7. Deuda registrada en `/simplify`, no resuelta
 
 - [ ] 7.1 Los números de sección siguen hardcodeados en cada `label` de `copy.ts` (18 literales entre `es` y `en`) y deben coincidir a mano con el orden de render de `App.tsx:79-98`. Reordenar una sección los desincroniza en silencio otra vez. Fix proporcionado: quitar el prefijo `"NN / "` de los strings, definir un array ordenado de secciones junto al JSX que establece el orden, y componer el número con `index + 1` en el punto de render. Fuera del alcance quirúrgico acordado
 - [ ] 7.2 `dividers.one.tag` / `.title` duplican literalmente `people[0].phase` / `.leads` de `content.ts`, y lo mismo para la fase 02 — cuatro copias de "FASE 01 / Fundación estratégica" contando `model.phaseOne.tag`. No se dedupe sourcing desde `people[]` porque acoplaría el divisor de una sección al badge de una persona, que es un acoplamiento falso. El arreglo correcto sería una constante única de fases, y excede el diff
-- [ ] 7.3 `content.ts:270` (día 3 del Challenge) dice "**Acá** se paga el prompting de la Fase 1". Mismo problema de neutralidad que la 6.5, pero está en la capa manual, que este change declara no tocada. Una palabra, pendiente de decisión

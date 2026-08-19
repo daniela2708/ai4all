@@ -34,9 +34,11 @@ diseño descrito con el verbo más débil disponible.
   página se sigue escribiendo seis semanas más: cada sesión publica materiales, las
   métricas se llenan el 2 de octubre.
 
-**No se toca** la capa manual (Method, Cases, Program, Challenge, Library, Ops,
-Responsible). Es el mejor copy del sitio: tiene destinatario claro y detalle
-operativo real, y ese detalle es el impacto.
+**La capa manual** (Method, Cases, Program, Challenge, Library, Ops, Responsible)
+no se toca en registro ni en retórica. Es el mejor copy del sitio: tiene
+destinatario claro y detalle operativo real, y ese detalle es el impacto. La
+única excepción es una palabra en `content.ts:270` —"Acá" pasa a "Aquí"— por
+consistencia de neutralidad del español con el resto del sitio.
 
 **Deuda registrada.** El presupuesto de antítesis se cumple en la capa informe,
 que queda en cuatro. La capa manual excede hoy el presupuesto con seis

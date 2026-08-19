@@ -267,7 +267,7 @@ export const challenge: ChallengeDay[] = [
     title: c("Integrar IA", "Add AI"),
     focus: c("Insertan el nodo de IA y adaptan el prompt de la Fase 1 a los datos reales, iterando hasta una calidad aceptable.", "Insert the AI node and adapt the Phase 1 prompt to real data, iterating until quality is acceptable."),
     deliverable: c("El flujo con IA produciendo salida aceptable sobre muestras reales", "The AI-powered flow producing acceptable output on real samples"),
-    why: c("Acá se paga el prompting de la Fase 1: no se enseña, se aplica.", "This is where Phase 1 prompting pays off: it is applied, not taught."),
+    why: c("Aquí se paga el prompting de la Fase 1: no se enseña, se aplica.", "This is where Phase 1 prompting pays off: it is applied, not taught."),
   },
   {
     n: "04",
