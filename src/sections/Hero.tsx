@@ -78,13 +78,13 @@ export function Hero({ t, lang, now }: { t: UICopy; lang: Lang; now: Date }) {
         <NextSession t={t} lang={lang} now={now} />
         </div>
 
-        <div className="hero-hosts" aria-label={lang === "es" ? "Espacios para imágenes del programa" : "Program image placeholders"}>
+        <div className="hero-hosts" aria-label={t.hero.hostsLabel}>
           <div className="hero-host hero-host-1">
-            <div className="hero-host-photo hero-image-primary"><span>{lang === "es" ? "IMAGEN PRINCIPAL" : "PRIMARY IMAGE"}</span></div>
+            <div className="hero-host-photo hero-image-primary"><span>{t.hero.imagePrimary}</span></div>
             <p className="hero-image-note">public/hero/hero-01.jpg</p>
           </div>
           <div className="hero-host hero-host-2">
-            <div className="hero-host-photo hero-image-secondary"><span>{lang === "es" ? "IMAGEN SECUNDARIA" : "SECONDARY IMAGE"}</span></div>
+            <div className="hero-host-photo hero-image-secondary"><span>{t.hero.imageSecondary}</span></div>
             <p className="hero-image-note">public/hero/hero-02.jpg</p>
           </div>
         </div>

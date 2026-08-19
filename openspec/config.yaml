@@ -1,0 +1,45 @@
+schema: spec-driven
+
+context: |
+  Sitio del piloto AI4All (People/Ops Colombia, Wizeline). Vite + React + TS.
+  Todo el texto vive en src/copy.ts (interfaz, bloques `es` y `en`) y en
+  src/content.ts (datos del programa, bilingües vía `c(es, en)`). El objeto `en`
+  está tipado contra `es`, así que toda edición va en los dos idiomas o el build
+  falla. Nada de texto visible dentro de los componentes.
+
+  Reglas de voz — spec completo en openspec/specs/voz-editorial/spec.md:
+
+  1. Tiempo verbal según el estado real del programa. No afirmar resultados que
+     no ocurrieron. Si un bloque muestra datos pendientes (métricas en "—",
+     biblioteca vacía), el copy declara qué se medirá y en qué fecha.
+  2. Atribución acotada al trabajo, no al estatus. Al nombrar a Daniela Ríos o
+     Cristian Villamil, decir qué diseñaron o qué hacen en concreto, y atribuir
+     casos, datos y resultados a People/Ops en el mismo bloque. Nunca
+     "acompañar" ni "facilitar" como verbo principal.
+  3. Presupuesto de figuras retóricas: máximo cuatro antítesis ("X no es A, es
+     B") por capa de audiencia, nunca dos en la misma sección.
+  4. Toda afirmación de valor exige evidencia presente o fecha explícita. Sin
+     predicciones sobre el futuro.
+  5. Registro por capa. Capa informe (Hero, Team, Impact, Manifesto, Model, Why):
+     liderazgo, tercera persona, mecanismo y evidencia. Capa manual (Method,
+     Cases, Program, Challenge, Library, Ops, Responsible): participantes, qué
+     hago y qué me llevo. No mezclar la persona gramatical dentro de una capa.
+
+# Project context (optional)
+# This is shown to AI when creating artifacts.
+# Add your tech stack, conventions, style guides, domain knowledge, etc.
+# Example:
+#   context: |
+#     Tech stack: TypeScript, React, Node.js
+#     We use conventional commits
+#     Domain: e-commerce platform
+
+# Per-artifact rules (optional)
+# Add custom rules for specific artifacts.
+# Example:
+#   rules:
+#     proposal:
+#       - Keep proposals under 500 words
+#       - Always include a "Non-goals" section
+#     tasks:
+#       - Break tasks into chunks of max 2 hours

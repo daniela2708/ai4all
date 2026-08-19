@@ -31,6 +31,9 @@ const es = {
     inDays: "EN {n} DÍAS",
     tomorrow: "MAÑANA",
     today: "HOY",
+    hostsLabel: "Espacios para imágenes del programa",
+    imagePrimary: "IMAGEN PRINCIPAL",
+    imageSecondary: "IMAGEN SECUNDARIA",
     tickerLabel: "PROGRAMA",
   },
 
@@ -38,18 +41,18 @@ const es = {
     tag: "AI4ALL / MANIFIESTO",
     a: "La IA no reemplaza el criterio.",
     b: "Lo amplifica.",
-    body: "AI4All democratiza el uso de la IA en Wizeline con práctica real: menos teoría, más soluciones construidas y puestas en producción. El punto de partida es People/Ops, porque el salto a una empresa impulsada por IA no empieza por la tecnología: empieza por la gente.",
+    body: "AI4All es un piloto de siete semanas para que People/Ops Colombia construya sus propias automatizaciones con IA. Empieza en este equipo porque es el que sostiene la operación diaria y el que mejor sabe qué tarea vale la pena automatizar.",
   },
 
   why: {
-    label: "02 / POR QUÉ AHORA",
-    title: "Un multiplicador, no un oráculo.",
-    lead: "La IA no es magia, no es conciencia y no es criterio: multiplica lo que ya haces. La brecha real no estará entre quienes tienen IA y quienes no, sino entre quienes la saben dirigir y quienes la usan para dejar de pensar.",
+    label: "03 / POR QUÉ AHORA",
+    title: "La IA multiplica el criterio que ya existe.",
+    lead: "La IA acelera decisiones que alguien ya tomó. Por eso el programa arranca por el criterio propio y la herramienta entra después.",
     cards: [
       {
         icon: "users",
         title: "Empezar por la gente",
-        body: "El salto a una empresa impulsada por IA no arranca en la tecnología. Arranca en los equipos que sostienen la operación todos los días.",
+        body: "People/Ops sostiene procesos que usa toda la compañía, empezando por contratación. Una automatización acá no se queda en un equipo.",
       },
       {
         icon: "chart",
@@ -72,7 +75,7 @@ const es = {
   },
 
   model: {
-    label: "01 / EL MODELO",
+    label: "02 / EL MODELO",
     title: "Dos fases que se encadenan.",
     lead: "La Fase 1 asegura que la Fase 2 no arranque desde cero: cada persona llega sabiendo qué va a construir y por qué.",
     phaseOne: {
@@ -81,11 +84,11 @@ const es = {
       meta: "6 semanas · 12 charlas · miércoles y viernes · 9:00 a 10:30 a. m.",
       lead: "Entender la IA, elegir la herramienta correcta y cuantificar el valor del propio trabajo.",
       lead2: "Cierra con cinco casos de uso propios, priorizados y documentados.",
-      owner: "Lidera Daniela Ríos",
+      owner: "Diseña y dirige Daniela Ríos",
     },
     bridge: {
       tag: "BOLETO DE ENTRADA",
-      title: "Tres cosas listas, o no se entra",
+      title: "Tres cosas listas antes del Día 1",
       items: [
         "Un caso elegido entre los cinco priorizados",
         "El borrador de prompt de ese caso",
@@ -98,15 +101,15 @@ const es = {
       title: "Del problema a producción",
       meta: "5 días · 2 horas diarias · sprint de entrega",
       lead: "Taller de construcción: del problema a la automatización funcionando, con su ROI calculado.",
-      lead2: "Funciona como sprint de entrega, no como curso.",
-      owner: "Lidera Cristian Villamil",
+      lead2: "Funciona como sprint de entrega.",
+      owner: "Diseña y dirige Cristian Villamil",
     },
     outcomeLabel: "RESULTADO",
     outcome: "Automatizaciones funcionando, con dueño definido y ROI documentado.",
   },
 
   program: {
-    label: "03 / PROGRAMA",
+    label: "06 / PROGRAMA",
     title: "Doce charlas. Doce entregables.",
     lead: "Noventa minutos por sesión, siempre con práctica en vivo. No hay charla que termine sin algo construido.",
     stats: [
@@ -125,6 +128,8 @@ const es = {
     ],
     progressLabel: "AVANCE",
     progressValue: "{done} de 12 charlas",
+    dateLabel: "FECHA",
+    talkLabel: "CHARLA",
     weekLabel: "SEMANA",
     liveLabel: "RETO EN VIVO",
     deliverableLabel: "ENTREGABLE",
@@ -231,7 +236,7 @@ const es = {
   },
 
   challenge: {
-    label: "06 / 5-DAY CHALLENGE",
+    label: "07 / 5-DAY CHALLENGE",
     title: "Cinco días para dejar algo funcionando.",
     lead: "No se viene a aprender a automatizar: se viene a poner una automatización en producción, con dueño y con ROI.",
     dynamicLabel: "LA DINÁMICA",
@@ -249,7 +254,7 @@ const es = {
   },
 
   library: {
-    label: "07 / BIBLIOTECA VIVA",
+    label: "08 / BIBLIOTECA VIVA",
     title: "Todo lo que hacemos queda aquí.",
     lead: "Cada sesión tiene su espacio reservado desde hoy. Slides, grabaciones, plantillas y artefactos se publican después de cada encuentro.",
     filters: [
@@ -272,9 +277,9 @@ const es = {
   },
 
   team: {
-    label: "QUIÉNES ACOMPAÑAN",
-    title: "Un proceso acompañado, construido por el equipo.",
-    lead: "Daniela y Cristian facilitan el recorrido. El trabajo y los resultados pertenecen a People/Ops.",
+    label: "QUIÉN LO DISEÑÓ Y LO DIRIGE",
+    title: "Dos personas lo diseñaron. People/Ops lo construye.",
+    lead: "Daniela Ríos y Cristian Villamil diseñaron el programa completo y dirigen una fase cada uno. Los casos, los datos y las automatizaciones que salgan de aquí son de People/Ops.",
     leadsLabel: "LIDERA",
     groupLabel: "EQUIPO PARTICIPANTE",
     groupName: "People/Ops Colombia",
@@ -289,15 +294,15 @@ const es = {
   },
 
   impact: {
-    label: "09 / NORTH STAR",
-    title: "El impacto no se intuye. Se demuestra.",
+    label: "01 / NORTH STAR",
+    title: "Tres números el 02 de octubre.",
     lead: "La métrica de éxito es una sola: cuántas automatizaciones quedan funcionando en producción al final del Día 5.",
     metrics: [
       { v: "—", k: "AUTOMATIZACIONES EN PRODUCCIÓN" },
       { v: "—", k: "HORAS AHORRADAS POR MES" },
       { v: "—", k: "ROI DOCUMENTADO" },
     ],
-    metricsNote: "Los números se completan el 02 de octubre, con evidencia del Demo Day.",
+    metricsNote: "Se llenan el 02 de octubre con los números que cada caso defienda en el Demo Day.",
     howTitle: "Cómo se mide",
     how: [
       "Demo en vivo: cada persona muestra su automatización funcionando.",
@@ -318,7 +323,7 @@ const es = {
   },
 
   ops: {
-    label: "10 / OPERACIÓN",
+    label: "09 / OPERACIÓN",
     stackTitle: "Con qué se construye",
     stackLead: "Orquestación visual, sin instalaciones ni código. El equipo ya opera dentro de Google Workspace y el piloto se queda ahí.",
     timelineTitle: "Cronograma consolidado",
@@ -337,8 +342,21 @@ const es = {
     ],
   },
 
+  dividers: {
+    one: {
+      tag: "FASE 01",
+      title: "Fundación estratégica",
+      body: "Doce charlas para llegar con criterio, un caso elegido y las bases listas para construir.",
+    },
+    two: {
+      tag: "FASE 02",
+      title: "5-Day Challenge",
+      body: "Cinco días para convertir lo aprendido en una automatización funcionando.",
+    },
+  },
+
   footer: {
-    tagline: "Doing and making with AI",
+    tagline: "IA aplicada al trabajo de People/Ops",
     internal: "Iniciativa interna · People/Ops · Colombia",
     confidential: "Documento de uso interno. Puede contener información privilegiada o confidencial.",
     rights: "© 2026 Wizeline",
@@ -376,6 +394,9 @@ const en: typeof es = {
     inDays: "IN {n} DAYS",
     tomorrow: "TOMORROW",
     today: "TODAY",
+    hostsLabel: "Program image placeholders",
+    imagePrimary: "PRIMARY IMAGE",
+    imageSecondary: "SECONDARY IMAGE",
     tickerLabel: "PROGRAM",
   },
 
@@ -383,18 +404,18 @@ const en: typeof es = {
     tag: "AI4ALL / MANIFESTO",
     a: "AI does not replace judgment.",
     b: "It amplifies it.",
-    body: "AI4All democratizes AI at Wizeline through real practice: less theory, more solutions built and put into production. The starting point is People/Ops, because the shift to an AI-driven company does not start with technology: it starts with people.",
+    body: "AI4All is a seven-week pilot for People/Ops Colombia to build its own AI automations. It starts with this team because they keep the daily operation running and know best which tasks are worth automating.",
   },
 
   why: {
-    label: "02 / WHY NOW",
-    title: "A multiplier, not an oracle.",
-    lead: "AI is not magic, not consciousness, and not judgment: it multiplies what you already do. The real gap will not be between those who have AI and those who do not, but between those who can direct it and those who use it to stop thinking.",
+    label: "03 / WHY NOW",
+    title: "AI multiplies the judgment already in the room.",
+    lead: "AI speeds up decisions someone already made. That is why the program starts with judgment and brings in the tool afterwards.",
     cards: [
       {
         icon: "users",
         title: "Start with people",
-        body: "The shift to an AI-driven company does not start with technology. It starts with the teams that keep the operation running every day.",
+        body: "People/Ops runs processes the whole company depends on, starting with hiring. An automation here does not stay inside one team.",
       },
       {
         icon: "chart",
@@ -417,7 +438,7 @@ const en: typeof es = {
   },
 
   model: {
-    label: "01 / THE MODEL",
+    label: "02 / THE MODEL",
     title: "Two phases, one chain.",
     lead: "Phase 1 makes sure Phase 2 does not start from zero: everyone arrives knowing what they will build and why.",
     phaseOne: {
@@ -426,11 +447,11 @@ const en: typeof es = {
       meta: "6 weeks · 12 talks · Wednesdays and Fridays · 9:00 to 10:30 a.m.",
       lead: "Understand AI, choose the right tool, and quantify the value of your own work.",
       lead2: "It closes with five personal use cases, prioritized and documented.",
-      owner: "Led by Daniela Ríos",
+      owner: "Designed and led by Daniela Ríos",
     },
     bridge: {
       tag: "ENTRY TICKET",
-      title: "Three things ready, or no entry",
+      title: "Three things ready before Day 1",
       items: [
         "One case chosen from the five prioritized",
         "The draft prompt for that case",
@@ -443,15 +464,15 @@ const en: typeof es = {
       title: "From problem to production",
       meta: "5 days · 2 hours a day · delivery sprint",
       lead: "A build workshop: from the problem to a working automation, with its ROI calculated.",
-      lead2: "It runs as a delivery sprint, not as a course.",
-      owner: "Led by Cristian Villamil",
+      lead2: "It runs as a delivery sprint.",
+      owner: "Designed and led by Cristian Villamil",
     },
     outcomeLabel: "OUTCOME",
     outcome: "Automations running, with a named owner and documented ROI.",
   },
 
   program: {
-    label: "03 / PROGRAM",
+    label: "06 / PROGRAM",
     title: "Twelve talks. Twelve deliverables.",
     lead: "Ninety minutes per session, always with live practice. No talk ends without something built.",
     stats: [
@@ -470,6 +491,8 @@ const en: typeof es = {
     ],
     progressLabel: "PROGRESS",
     progressValue: "{done} of 12 talks",
+    dateLabel: "DATE",
+    talkLabel: "TALK",
     weekLabel: "WEEK",
     liveLabel: "LIVE CHALLENGE",
     deliverableLabel: "DELIVERABLE",
@@ -576,7 +599,7 @@ const en: typeof es = {
   },
 
   challenge: {
-    label: "06 / 5-DAY CHALLENGE",
+    label: "07 / 5-DAY CHALLENGE",
     title: "Five days to leave something running.",
     lead: "Nobody comes to learn how to automate: they come to put an automation into production, with an owner and an ROI.",
     dynamicLabel: "THE DYNAMIC",
@@ -594,7 +617,7 @@ const en: typeof es = {
   },
 
   library: {
-    label: "07 / LIVING LIBRARY",
+    label: "08 / LIVING LIBRARY",
     title: "Everything we make stays here.",
     lead: "Every session has its space reserved from day one. Slides, recordings, templates, and artifacts are published after each meeting.",
     filters: [
@@ -617,9 +640,9 @@ const en: typeof es = {
   },
 
   team: {
-    label: "WHO SUPPORTS THE WORK",
-    title: "A guided process, built by the team.",
-    lead: "Daniela and Cristian facilitate the journey. The work and its outcomes belong to People/Ops.",
+    label: "WHO DESIGNED AND RUNS IT",
+    title: "Two people designed it. People/Ops builds it.",
+    lead: "Daniela Ríos and Cristian Villamil designed the whole program and each runs one phase. The cases, the data, and any automations that come out of it belong to People/Ops.",
     leadsLabel: "LEADS",
     groupLabel: "PARTICIPATING TEAM",
     groupName: "People/Ops Colombia",
@@ -634,15 +657,15 @@ const en: typeof es = {
   },
 
   impact: {
-    label: "09 / NORTH STAR",
-    title: "Impact is not assumed. It is proven.",
+    label: "01 / NORTH STAR",
+    title: "Three numbers on October 02.",
     lead: "There is a single success metric: how many automations are still running in production at the end of Day 5.",
     metrics: [
       { v: "—", k: "AUTOMATIONS IN PRODUCTION" },
       { v: "—", k: "HOURS SAVED PER MONTH" },
       { v: "—", k: "DOCUMENTED ROI" },
     ],
-    metricsNote: "The numbers get filled in on October 02, with evidence from Demo Day.",
+    metricsNote: "They get filled in on October 02 with the numbers each case defends at Demo Day.",
     howTitle: "How it is measured",
     how: [
       "Live demo: each person shows their automation running.",
@@ -663,7 +686,7 @@ const en: typeof es = {
   },
 
   ops: {
-    label: "10 / OPERATIONS",
+    label: "09 / OPERATIONS",
     stackTitle: "What it is built with",
     stackLead: "Visual orchestration, with no installs and no code. The team already works inside Google Workspace and the pilot stays there.",
     timelineTitle: "Consolidated timeline",
@@ -682,8 +705,21 @@ const en: typeof es = {
     ],
   },
 
+  dividers: {
+    one: {
+      tag: "PHASE 01",
+      title: "Strategic foundation",
+      body: "Twelve talks to arrive with judgment, a chosen use case, and the groundwork ready to build.",
+    },
+    two: {
+      tag: "PHASE 02",
+      title: "5-Day Challenge",
+      body: "Five days to turn what was learned into a working automation.",
+    },
+  },
+
   footer: {
-    tagline: "Doing and making with AI",
+    tagline: "AI applied to People/Ops work",
     internal: "Internal initiative · People/Ops · Colombia",
     confidential: "For internal use. May contain privileged or confidential information.",
     rights: "© 2026 Wizeline",
