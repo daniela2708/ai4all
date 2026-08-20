@@ -32,7 +32,7 @@ function NextSession({ t, lang, now }: { t: UICopy; lang: Lang; now: Date }) {
         <em>{next.session.n}</em> {pick(next.session.title, lang)}
       </p>
       <p className="hero-next-meta">
-        {pick(next.session.weekday, lang)} {pick(next.session.date, lang)} · 9:00
+        {pick(next.session.weekday, lang)} {pick(next.session.date, lang)} · 15:00
         <span className="hero-next-when">{when}</span>
       </p>
     </div>

@@ -18,7 +18,7 @@ const es = {
     intro:
       "Una iniciativa interna para que People/Ops convierta su criterio en soluciones con IA: construidas, medidas y puestas en producción.",
     meta: [
-      { k: "CALENDARIO", v: "19 AGO — 02 OCT 2026" },
+      { k: "CALENDARIO", v: "26 AGO — 02 OCT 2026" },
       { k: "FORMATO", v: "12 CHARLAS + 5 DÍAS" },
       { k: "LUGAR", v: "BOGOTÁ · PRESENCIAL" },
     ],
@@ -81,7 +81,7 @@ const es = {
     phaseOne: {
       tag: "FASE 01 · FUNDACIÓN ESTRATÉGICA",
       title: "De cero a criterio",
-      meta: "6 semanas · 12 charlas · miércoles y viernes · 9:00 a 10:30 a. m.",
+      meta: "5 semanas · 12 charlas · miércoles y jueves (+ lunes las últimas 2 semanas) · 3:00 a 4:30 p. m.",
       lead: "Entender la IA, elegir la herramienta correcta y cuantificar el valor del propio trabajo.",
       lead2: "Cierra con cinco casos de uso propios, priorizados y documentados.",
       owner: "Diseña y dirige Daniela Ríos",
@@ -114,7 +114,7 @@ const es = {
     lead: "Noventa minutos por sesión, siempre con práctica en vivo. No hay charla que termine sin algo construido.",
     stats: [
       { v: 12, suffix: "", k: "CHARLAS" },
-      { v: 6, suffix: "", k: "SEMANAS" },
+      { v: 5, suffix: "", k: "SEMANAS" },
       { v: 90, suffix: "", k: "MINUTOS POR SESIÓN" },
     ],
     outcomesTitle: "Al terminar la Fase 1, cada persona puede",
@@ -381,7 +381,7 @@ const en: typeof es = {
     intro:
       "An internal initiative for People/Ops to turn their judgment into AI-powered solutions: built, measured, and put into production.",
     meta: [
-      { k: "CALENDAR", v: "AUG 19 — OCT 02, 2026" },
+      { k: "CALENDAR", v: "AUG 26 — OCT 02, 2026" },
       { k: "FORMAT", v: "12 TALKS + 5 DAYS" },
       { k: "PLACE", v: "BOGOTÁ · IN PERSON" },
     ],
@@ -444,7 +444,7 @@ const en: typeof es = {
     phaseOne: {
       tag: "PHASE 01 · STRATEGIC FOUNDATION",
       title: "From zero to judgment",
-      meta: "6 weeks · 12 talks · Wednesdays and Fridays · 9:00 to 10:30 a.m.",
+      meta: "5 weeks · 12 talks · Wednesdays and Thursdays (+ Mondays in the final 2 weeks) · 3:00 to 4:30 p.m.",
       lead: "Understand AI, choose the right tool, and quantify the value of your own work.",
       lead2: "It closes with five personal use cases, prioritized and documented.",
       owner: "Designed and led by Daniela Ríos",
@@ -477,7 +477,7 @@ const en: typeof es = {
     lead: "Ninety minutes per session, always with live practice. No talk ends without something built.",
     stats: [
       { v: 12, suffix: "", k: "TALKS" },
-      { v: 6, suffix: "", k: "WEEKS" },
+      { v: 5, suffix: "", k: "WEEKS" },
       { v: 90, suffix: "", k: "MINUTES PER SESSION" },
     ],
     outcomesTitle: "By the end of Phase 1, each person can",
