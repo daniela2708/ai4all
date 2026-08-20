@@ -84,15 +84,15 @@ export default function App() {
         <Method t={t} />
         <Cases t={t} />
         <div className="phase-divider phase-divider-one">
-          <span>{lang === "es" ? "FASE 01" : "PHASE 01"}</span>
-          <strong>{lang === "es" ? "Fundación estratégica" : "Strategic foundation"}</strong>
-          <p>{lang === "es" ? "Doce charlas para llegar con criterio, un caso elegido y las bases listas para construir." : "Twelve talks to arrive with judgment, a chosen use case, and the groundwork ready to build."}</p>
+          <span>{t.dividers.one.tag}</span>
+          <strong>{t.dividers.one.title}</strong>
+          <p>{t.dividers.one.body}</p>
         </div>
         <Program t={t} lang={lang} now={now} />
         <div className="phase-divider phase-divider-two">
-          <span>{lang === "es" ? "FASE 02" : "PHASE 02"}</span>
-          <strong>5-Day Challenge</strong>
-          <p>{lang === "es" ? "Cinco días para convertir lo aprendido en una automatización funcionando." : "Five days to turn what was learned into a working automation."}</p>
+          <span>{t.dividers.two.tag}</span>
+          <strong>{t.dividers.two.title}</strong>
+          <p>{t.dividers.two.body}</p>
         </div>
         <Challenge t={t} lang={lang} now={now} />
         <Library t={t} lang={lang} now={now} />

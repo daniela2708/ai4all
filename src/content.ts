@@ -267,7 +267,7 @@ export const challenge: ChallengeDay[] = [
     title: c("Integrar IA", "Add AI"),
     focus: c("Insertan el nodo de IA y adaptan el prompt de la Fase 1 a los datos reales, iterando hasta una calidad aceptable.", "Insert the AI node and adapt the Phase 1 prompt to real data, iterating until quality is acceptable."),
     deliverable: c("El flujo con IA produciendo salida aceptable sobre muestras reales", "The AI-powered flow producing acceptable output on real samples"),
-    why: c("Acá se paga el prompting de la Fase 1: no se enseña, se aplica.", "This is where Phase 1 prompting pays off: it is applied, not taught."),
+    why: c("Aquí se paga el prompting de la Fase 1: no se enseña, se aplica.", "This is where Phase 1 prompting pays off: it is applied, not taught."),
   },
   {
     n: "04",
@@ -309,7 +309,7 @@ export const people: Person[] = [
     role: c("Data Analyst", "Data Analyst"),
     phase: c("FASE 01", "PHASE 01"),
     leads: c("Fundación estratégica", "Strategic foundation"),
-    contribution: c("Estrategia, criterio y las bases para que el equipo llegue listo a construir.", "Strategy, judgment, and the groundwork so the team arrives ready to build."),
+    contribution: c("Diseñó las 12 sesiones y el instrumento que prioriza los casos.", "Designed the 12 sessions and the instrument that prioritizes cases."),
   },
   {
     photo: "/team/cristian-villamil.jpg",
@@ -317,7 +317,7 @@ export const people: Person[] = [
     role: c("Senior Software Engineer, Android", "Senior Software Engineer, Android"),
     phase: c("FASE 02", "PHASE 02"),
     leads: c("5-Day Challenge", "5-Day Challenge"),
-    contribution: c("Implementación práctica: del problema a la automatización en producción.", "Hands-on implementation: from problem to automation in production."),
+    contribution: c("Diseñó el sprint de 5 días y construye el caso maestro en vivo, frente al equipo.", "Designed the 5-day sprint and builds the master case live, in front of the team."),
   },
 ];
 

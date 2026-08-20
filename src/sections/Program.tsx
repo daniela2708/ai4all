@@ -102,7 +102,7 @@ export function Program({
 
       <div className="talks-menu">
         <div className="talks-head" aria-hidden="true">
-          <span>#</span><span>{lang === "es" ? "FECHA" : "DATE"}</span><span>{lang === "es" ? "CHARLA" : "TALK"}</span><span>{t.program.liveLabel}</span><span>{t.program.deliverableLabel}</span>
+          <span>#</span><span>{t.program.dateLabel}</span><span>{t.program.talkLabel}</span><span>{t.program.liveLabel}</span><span>{t.program.deliverableLabel}</span>
         </div>
         <div className="session-list">
           {sessions.map((session, i) => {
