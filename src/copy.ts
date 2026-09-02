@@ -18,7 +18,7 @@ const es = {
     intro:
       "Una iniciativa interna para que People/Ops convierta su criterio en soluciones con IA: construidas, medidas y puestas en producción.",
     meta: [
-      { k: "CALENDARIO", v: "26 AGO — 02 OCT 2026" },
+      { k: "CALENDARIO", v: "12 SEP — 19 OCT 2026" },
       { k: "FORMATO", v: "12 CHARLAS + 5 DÍAS" },
       { k: "LUGAR", v: "BOGOTÁ · PRESENCIAL" },
     ],
@@ -41,7 +41,7 @@ const es = {
     tag: "AI4ALL / MANIFIESTO",
     a: "La IA no reemplaza el criterio.",
     b: "Lo amplifica.",
-    body: "AI4All es un piloto de siete semanas para que People/Ops Colombia construya sus propias automatizaciones con IA. Empieza en este equipo porque es el que sostiene la operación diaria y el que mejor sabe qué tarea vale la pena automatizar.",
+    body: "AI4All es un piloto para que People/Ops Colombia construya sus propias automatizaciones con IA. Empieza en este equipo porque es el que sostiene la operación diaria y el que mejor sabe qué tarea vale la pena automatizar.",
   },
 
   why: {
@@ -81,7 +81,7 @@ const es = {
     phaseOne: {
       tag: "FASE 01 · FUNDACIÓN ESTRATÉGICA",
       title: "De cero a criterio",
-      meta: "5 semanas · 12 charlas · miércoles y jueves (+ lunes las últimas 2 semanas) · 3:00 a 4:30 p. m.",
+      meta: "12 charlas · del 12 de septiembre al 11 de octubre · 3:00 a 4:30 p. m.",
       lead: "Entender la IA, elegir la herramienta correcta y cuantificar el valor del propio trabajo.",
       lead2: "Cierra con cinco casos de uso propios, priorizados y documentados.",
       owner: "Diseña y dirige Daniela Ríos",
@@ -148,6 +148,8 @@ const es = {
     label: "04 / EL RITUAL",
     title: "Pensar primero. Usar IA después.",
     lead: "Todas las sesiones siguen el mismo ritual de cuatro movimientos. Así la IA amplifica el criterio propio en lugar de reemplazarlo, y el aprendizaje se vuelve colectivo.",
+    openLabel: "VER PASO",
+    closeLabel: "Cerrar detalle",
     steps: [
       {
         icon: "pen",
@@ -256,7 +258,7 @@ const es = {
   library: {
     label: "08 / BIBLIOTECA VIVA",
     title: "Todo lo que hacemos queda aquí.",
-    lead: "Cada sesión tiene su espacio reservado desde hoy. Slides, grabaciones, plantillas y artefactos se publican después de cada encuentro.",
+    lead: "La página de la iniciativa se actualiza continuamente con cada clase. Después de cada encuentro se suman sus slides, grabaciones, pantallazos, plantillas y artefactos, junto con ajustes y finalizaciones estéticas.",
     filters: [
       { id: "all", label: "TODO" },
       { id: "slides", label: "SLIDES" },
@@ -267,7 +269,7 @@ const es = {
     reserved: "ESPACIO RESERVADO",
     available: "DISPONIBLE",
     empty: "Todavía no hay material de este tipo. Aparecerá aquí después de las próximas sesiones.",
-    note: "El archivo crece sesión por sesión.",
+    note: "La página y su archivo crecen clase por clase.",
     kinds: {
       slides: "Slides",
       recording: "Grabación",
@@ -295,14 +297,14 @@ const es = {
 
   impact: {
     label: "01 / NORTH STAR",
-    title: "Tres números el 02 de octubre.",
+    title: "Tres números el 19 de octubre.",
     lead: "La métrica de éxito es una sola: cuántas automatizaciones quedan funcionando en producción al final del Día 5.",
     metrics: [
       { v: "—", k: "AUTOMATIZACIONES EN PRODUCCIÓN" },
       { v: "—", k: "HORAS AHORRADAS POR MES" },
       { v: "—", k: "ROI DOCUMENTADO" },
     ],
-    metricsNote: "Se llenan el 02 de octubre con los números que cada caso defienda en el Demo Day.",
+    metricsNote: "Se llenan el 19 de octubre con los números que cada caso defienda en el Demo Day.",
     howTitle: "Cómo se mide",
     how: [
       "Demo en vivo: cada persona muestra su automatización funcionando.",
@@ -310,7 +312,7 @@ const es = {
       "Traspaso documentado: quién es el dueño, dónde vive y qué la rompe.",
     ],
     demoTag: "DEMO DAY",
-    demoDate: "02 OCT 2026 · BOGOTÁ",
+    demoDate: "19 OCT 2026 · BOGOTÁ",
     demoBody: "Demos en vivo, ROI por caso y entrega de runbooks.",
     videoLabel: "MICROTUTORIALES",
     videoTitle: "Sesenta segundos en Slack",
@@ -381,7 +383,7 @@ const en: typeof es = {
     intro:
       "An internal initiative for People/Ops to turn their judgment into AI-powered solutions: built, measured, and put into production.",
     meta: [
-      { k: "CALENDAR", v: "AUG 26 — OCT 02, 2026" },
+      { k: "CALENDAR", v: "SEP 12 — OCT 19, 2026" },
       { k: "FORMAT", v: "12 TALKS + 5 DAYS" },
       { k: "PLACE", v: "BOGOTÁ · IN PERSON" },
     ],
@@ -404,7 +406,7 @@ const en: typeof es = {
     tag: "AI4ALL / MANIFESTO",
     a: "AI does not replace judgment.",
     b: "It amplifies it.",
-    body: "AI4All is a seven-week pilot for People/Ops Colombia to build its own AI automations. It starts with this team because they keep the daily operation running and know best which tasks are worth automating.",
+    body: "AI4All is a pilot for People/Ops Colombia to build its own AI automations. It starts with this team because they keep the daily operation running and know best which tasks are worth automating.",
   },
 
   why: {
@@ -444,7 +446,7 @@ const en: typeof es = {
     phaseOne: {
       tag: "PHASE 01 · STRATEGIC FOUNDATION",
       title: "From zero to judgment",
-      meta: "5 weeks · 12 talks · Wednesdays and Thursdays (+ Mondays in the final 2 weeks) · 3:00 to 4:30 p.m.",
+      meta: "12 talks · September 12 to October 11 · 3:00 to 4:30 p.m.",
       lead: "Understand AI, choose the right tool, and quantify the value of your own work.",
       lead2: "It closes with five personal use cases, prioritized and documented.",
       owner: "Designed and led by Daniela Ríos",
@@ -511,6 +513,8 @@ const en: typeof es = {
     label: "04 / THE RITUAL",
     title: "Think first. Use AI second.",
     lead: "Every session follows the same four-move ritual. That way AI amplifies your own judgment instead of replacing it, and learning becomes collective.",
+    openLabel: "VIEW STEP",
+    closeLabel: "Close detail",
     steps: [
       {
         icon: "pen",
@@ -619,7 +623,7 @@ const en: typeof es = {
   library: {
     label: "08 / LIVING LIBRARY",
     title: "Everything we make stays here.",
-    lead: "Every session has its space reserved from day one. Slides, recordings, templates, and artifacts are published after each meeting.",
+    lead: "The initiative page is continuously updated with every class. After each meeting, its slides, recordings, screenshots, templates, and artifacts are added here, along with visual refinements and finishing touches.",
     filters: [
       { id: "all", label: "ALL" },
       { id: "slides", label: "SLIDES" },
@@ -630,7 +634,7 @@ const en: typeof es = {
     reserved: "SPACE RESERVED",
     available: "AVAILABLE",
     empty: "No material of this type yet. It will show up here after the coming sessions.",
-    note: "The archive grows session by session.",
+    note: "The page and its archive grow class by class.",
     kinds: {
       slides: "Slides",
       recording: "Recording",
@@ -658,14 +662,14 @@ const en: typeof es = {
 
   impact: {
     label: "01 / NORTH STAR",
-    title: "Three numbers on October 02.",
+    title: "Three numbers on October 19.",
     lead: "There is a single success metric: how many automations are still running in production at the end of Day 5.",
     metrics: [
       { v: "—", k: "AUTOMATIONS IN PRODUCTION" },
       { v: "—", k: "HOURS SAVED PER MONTH" },
       { v: "—", k: "DOCUMENTED ROI" },
     ],
-    metricsNote: "They get filled in on October 02 with the numbers each case presents at Demo Day.",
+    metricsNote: "They get filled in on October 19 with the numbers each case presents at Demo Day.",
     howTitle: "How it is measured",
     how: [
       "Live demo: each person shows their automation running.",
@@ -673,7 +677,7 @@ const en: typeof es = {
       "Documented handover: who owns it, where it lives, and what breaks it.",
     ],
     demoTag: "DEMO DAY",
-    demoDate: "OCT 02, 2026 · BOGOTÁ",
+    demoDate: "OCT 19, 2026 · BOGOTÁ",
     demoBody: "Live demos, ROI per case, and runbook handover.",
     videoLabel: "MICRO-TUTORIALS",
     videoTitle: "Sixty seconds on Slack",
