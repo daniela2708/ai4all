@@ -18,7 +18,7 @@ const es = {
     intro:
       "Una iniciativa interna para que People/Ops convierta su criterio en soluciones con IA: construidas, medidas y puestas en producción.",
     meta: [
-      { k: "CALENDARIO", v: "12 SEP — 19 OCT 2026" },
+      { k: "CALENDARIO", v: "02 SEP — 09 OCT 2026" },
       { k: "FORMATO", v: "12 CHARLAS + 5 DÍAS" },
       { k: "LUGAR", v: "BOGOTÁ · PRESENCIAL" },
     ],
@@ -81,7 +81,7 @@ const es = {
     phaseOne: {
       tag: "FASE 01 · FUNDACIÓN ESTRATÉGICA",
       title: "De cero a criterio",
-      meta: "12 charlas · del 12 de septiembre al 11 de octubre · 3:00 a 4:30 p. m.",
+      meta: "12 charlas · del 2 de septiembre al 1 de octubre · 3:00 a 4:30 p. m.",
       lead: "Entender la IA, elegir la herramienta correcta y cuantificar el valor del propio trabajo.",
       lead2: "Cierra con cinco casos de uso propios, priorizados y documentados.",
       owner: "Diseña y dirige Daniela Ríos",
@@ -297,14 +297,14 @@ const es = {
 
   impact: {
     label: "01 / NORTH STAR",
-    title: "Tres números el 19 de octubre.",
+    title: "Tres números el 09 de octubre.",
     lead: "La métrica de éxito es una sola: cuántas automatizaciones quedan funcionando en producción al final del Día 5.",
     metrics: [
       { v: "—", k: "AUTOMATIZACIONES EN PRODUCCIÓN" },
       { v: "—", k: "HORAS AHORRADAS POR MES" },
       { v: "—", k: "ROI DOCUMENTADO" },
     ],
-    metricsNote: "Se llenan el 19 de octubre con los números que cada caso defienda en el Demo Day.",
+    metricsNote: "Se llenan el 09 de octubre con los números que cada caso defienda en el Demo Day.",
     howTitle: "Cómo se mide",
     how: [
       "Demo en vivo: cada persona muestra su automatización funcionando.",
@@ -312,7 +312,7 @@ const es = {
       "Traspaso documentado: quién es el dueño, dónde vive y qué la rompe.",
     ],
     demoTag: "DEMO DAY",
-    demoDate: "19 OCT 2026 · BOGOTÁ",
+    demoDate: "09 OCT 2026 · BOGOTÁ",
     demoBody: "Demos en vivo, ROI por caso y entrega de runbooks.",
     videoLabel: "MICROTUTORIALES",
     videoTitle: "Sesenta segundos en Slack",
@@ -383,7 +383,7 @@ const en: typeof es = {
     intro:
       "An internal initiative for People/Ops to turn their judgment into AI-powered solutions: built, measured, and put into production.",
     meta: [
-      { k: "CALENDAR", v: "SEP 12 — OCT 19, 2026" },
+      { k: "CALENDAR", v: "SEP 02 — OCT 09, 2026" },
       { k: "FORMAT", v: "12 TALKS + 5 DAYS" },
       { k: "PLACE", v: "BOGOTÁ · IN PERSON" },
     ],
@@ -446,7 +446,7 @@ const en: typeof es = {
     phaseOne: {
       tag: "PHASE 01 · STRATEGIC FOUNDATION",
       title: "From zero to judgment",
-      meta: "12 talks · September 12 to October 11 · 3:00 to 4:30 p.m.",
+      meta: "12 talks · September 2 to October 1 · 3:00 to 4:30 p.m.",
       lead: "Understand AI, choose the right tool, and quantify the value of your own work.",
       lead2: "It closes with five personal use cases, prioritized and documented.",
       owner: "Designed and led by Daniela Ríos",
@@ -662,14 +662,14 @@ const en: typeof es = {
 
   impact: {
     label: "01 / NORTH STAR",
-    title: "Three numbers on October 19.",
+    title: "Three numbers on October 09.",
     lead: "There is a single success metric: how many automations are still running in production at the end of Day 5.",
     metrics: [
       { v: "—", k: "AUTOMATIONS IN PRODUCTION" },
       { v: "—", k: "HOURS SAVED PER MONTH" },
       { v: "—", k: "DOCUMENTED ROI" },
     ],
-    metricsNote: "They get filled in on October 19 with the numbers each case presents at Demo Day.",
+    metricsNote: "They get filled in on October 09 with the numbers each case presents at Demo Day.",
     howTitle: "How it is measured",
     how: [
       "Live demo: each person shows their automation running.",
@@ -677,7 +677,7 @@ const en: typeof es = {
       "Documented handover: who owns it, where it lives, and what breaks it.",
     ],
     demoTag: "DEMO DAY",
-    demoDate: "OCT 19, 2026 · BOGOTÁ",
+    demoDate: "OCT 09, 2026 · BOGOTÁ",
     demoBody: "Live demos, ROI per case, and runbook handover.",
     videoLabel: "MICRO-TUTORIALS",
     videoTitle: "Sixty seconds on Slack",
