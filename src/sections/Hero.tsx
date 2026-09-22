@@ -1,5 +1,7 @@
 import type { CSSProperties } from "react";
 import { ArrowDown, ArrowRight, Radio } from "lucide-react";
+import primaryPhoto from "../../Fotos/trabajo-colaborativo-en-portatiles.jpeg";
+import secondaryPhoto from "../../Fotos/practica-chatgpt-en-equipo.jpeg";
 import { pick, sessions, type Lang } from "../content";
 import type { UICopy } from "../copy";
 import { fill, nextSession } from "../lib";
@@ -80,12 +82,30 @@ export function Hero({ t, lang, now }: { t: UICopy; lang: Lang; now: Date }) {
 
         <div className="hero-hosts" aria-label={t.hero.hostsLabel}>
           <div className="hero-host hero-host-1">
-            <div className="hero-host-photo hero-image-primary"><span>{t.hero.imagePrimary}</span></div>
-            <p className="hero-image-note">public/hero/hero-01.jpg</p>
+            <div
+              className="hero-host-photo hero-image-primary"
+              role="img"
+              aria-label={t.hero.imagePrimary}
+              style={{
+                backgroundImage: `linear-gradient(145deg, rgba(233, 61, 68, 0.25), rgba(186, 34, 41, 0.08)), url("${primaryPhoto}")`,
+              }}
+            >
+              <span>{t.hero.imagePrimary}</span>
+            </div>
+            <p className="hero-image-note">AI4ALL / BOGOTÁ / 2026</p>
           </div>
           <div className="hero-host hero-host-2">
-            <div className="hero-host-photo hero-image-secondary"><span>{t.hero.imageSecondary}</span></div>
-            <p className="hero-image-note">public/hero/hero-02.jpg</p>
+            <div
+              className="hero-host-photo hero-image-secondary"
+              role="img"
+              aria-label={t.hero.imageSecondary}
+              style={{
+                backgroundImage: `linear-gradient(145deg, rgba(33, 30, 30, 0.22), rgba(33, 30, 30, 0.04)), url("${secondaryPhoto}")`,
+              }}
+            >
+              <span>{t.hero.imageSecondary}</span>
+            </div>
+            <p className="hero-image-note">PEOPLE/OPS / HANDS-ON</p>
           </div>
         </div>
       </div>

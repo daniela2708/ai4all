@@ -14,12 +14,12 @@ const es = {
 
   hero: {
     eyebrow: "COLOMBIA · PILOTO 2026",
-    lines: ["Hacer.", "Medir.", "Compartir."],
+    lines: ["Entender.", "Aplicar.", "Construir."],
     intro:
-      "Una iniciativa interna para que People/Ops convierta su criterio en soluciones con IA: construidas, medidas y puestas en producción.",
+      "Un programa práctico creado con People/Ops y diseñado alrededor de las necesidades reales de la cohorte.",
     meta: [
-      { k: "CALENDARIO", v: "02 SEP — 09 OCT 2026" },
-      { k: "FORMATO", v: "12 CHARLAS + 5 DÍAS" },
+      { k: "CALENDARIO", v: "02 SEP — 16 OCT 2026" },
+      { k: "FORMATO", v: "LEARNING JOURNEY + BUILD SPRINT" },
       { k: "LUGAR", v: "BOGOTÁ · PRESENCIAL" },
     ],
     ctaPrimary: "Conoce el programa",
@@ -31,9 +31,9 @@ const es = {
     inDays: "EN {n} DÍAS",
     tomorrow: "MAÑANA",
     today: "HOY",
-    hostsLabel: "Espacios para imágenes del programa",
-    imagePrimary: "IMAGEN PRINCIPAL",
-    imageSecondary: "IMAGEN SECUNDARIA",
+    hostsLabel: "Momentos reales del programa AI4All",
+    imagePrimary: "TRABAJO COLABORATIVO",
+    imageSecondary: "EXPERIMENTACIÓN EN EQUIPO",
     tickerLabel: "PROGRAMA",
   },
 
@@ -41,7 +41,7 @@ const es = {
     tag: "AI4ALL / MANIFIESTO",
     a: "La IA no reemplaza el criterio.",
     b: "Lo amplifica.",
-    body: "AI4All es un piloto para que People/Ops Colombia construya sus propias automatizaciones con IA. Empieza en este equipo porque es el que sostiene la operación diaria y el que mejor sabe qué tarea vale la pena automatizar.",
+    body: "AI4All combina fundamentos, comprensión del trabajo real, herramientas, pensamiento sistémico y experimentación. Sigue una dirección clara, mientras las preguntas y necesidades de la cohorte ayudan a definir lo que sigue.",
   },
 
   why: {
@@ -81,7 +81,7 @@ const es = {
     phaseOne: {
       tag: "FASE 01 · FUNDACIÓN ESTRATÉGICA",
       title: "De cero a criterio",
-      meta: "12 charlas · del 2 de septiembre al 1 de octubre · 3:00 a 4:30 p. m.",
+      meta: "12 encuentros · del 2 de septiembre al 8 de octubre · miércoles y jueves · 3:00 a 4:30 p. m.",
       lead: "Entender la IA, elegir la herramienta correcta y cuantificar el valor del propio trabajo.",
       lead2: "Cierra con cinco casos de uso propios, priorizados y documentados.",
       owner: "Diseña y dirige Daniela Ríos",
@@ -110,21 +110,21 @@ const es = {
 
   program: {
     label: "06 / PROGRAMA",
-    title: "Doce charlas. Doce entregables.",
-    lead: "Noventa minutos por sesión, siempre con práctica en vivo. No hay charla que termine sin algo construido.",
+    title: "De fundamentos a soluciones útiles.",
+    lead: "El recorrido avanza desde entender la IA y observar el trabajo real hasta experimentar, construir y compartir soluciones.",
     stats: [
-      { v: 12, suffix: "", k: "CHARLAS" },
+      { v: 7, suffix: "", k: "EJES DE APRENDIZAJE" },
       { v: 5, suffix: "", k: "SEMANAS" },
-      { v: 90, suffix: "", k: "MINUTOS POR SESIÓN" },
+      { v: 1, suffix: "", k: "COHORTE" },
     ],
-    outcomesTitle: "Al terminar la Fase 1, cada persona puede",
+    outcomesTitle: "El recorrido conecta conocimiento con aplicación",
     outcomes: [
-      "Explicar qué es la IA generativa y en qué se diferencia de una búsqueda o una macro.",
-      "Nombrar las herramientas disponibles y saber cuál usar en cada caso.",
-      "Distinguir automatización, código e IA, y saber qué cuesta usarla.",
-      "Cuantificar y comunicar el valor de su rol en métricas y en dinero.",
-      "Reconocer qué tareas son automatizables y cuáles requieren criterio humano.",
-      "Traer al menos un caso de uso propio, documentado, para la Fase 2.",
+      "Entender cómo representan información los computadores y qué hace diferente a la IA.",
+      "Reconocer dónde la IA crea valor y dónde sigue siendo indispensable el criterio humano.",
+      "Mapear flujos, actores, reglas, excepciones y dependencias antes de automatizar.",
+      "Elegir la herramienta adecuada para el problema, no al revés.",
+      "Convertir puntos de dolor reales en oportunidades y experimentos claramente definidos.",
+      "Construir, validar y compartir soluciones basadas en el trabajo real.",
     ],
     progressLabel: "AVANCE",
     progressValue: "{done} de 12 charlas",
@@ -257,8 +257,8 @@ const es = {
 
   library: {
     label: "08 / BIBLIOTECA VIVA",
-    title: "Todo lo que hacemos queda aquí.",
-    lead: "La página de la iniciativa se actualiza continuamente con cada clase. Después de cada encuentro se suman sus slides, grabaciones, pantallazos, plantillas y artefactos, junto con ajustes y finalizaciones estéticas.",
+    title: "Todo lo que hacemos alimenta lo siguiente.",
+    lead: "La base de conocimiento, el inventario de procesos, el repositorio validado y los experimentos crecen con cada encuentro y quedan disponibles para futuras cohortes.",
     filters: [
       { id: "all", label: "TODO" },
       { id: "slides", label: "SLIDES" },
@@ -287,6 +287,7 @@ const es = {
     groupName: "People/Ops Colombia",
     groupPlace: "Bogotá",
     groupBody: "El piloto se hace presencial en Bogotá: mismo salón, mismas manos en el teclado. Trabajar en el mismo espacio permite ver de cerca el efecto de cada sesión, resolver bloqueos en el momento y comprobar si el impacto es real antes de escalar el programa.",
+    groupPhotoAlt: "Participantes de AI4All prototipando soluciones en equipo",
     groupStats: [
       { v: "05", k: "PERSONAS EN EL PILOTO" },
       { v: "17", k: "ENCUENTROS PRESENCIALES" },
@@ -297,14 +298,14 @@ const es = {
 
   impact: {
     label: "01 / NORTH STAR",
-    title: "Tres números el 09 de octubre.",
+    title: "Tres números el 16 de octubre.",
     lead: "La métrica de éxito es una sola: cuántas automatizaciones quedan funcionando en producción al final del Día 5.",
     metrics: [
       { v: "—", k: "AUTOMATIZACIONES EN PRODUCCIÓN" },
       { v: "—", k: "HORAS AHORRADAS POR MES" },
       { v: "—", k: "ROI DOCUMENTADO" },
     ],
-    metricsNote: "Se llenan el 09 de octubre con los números que cada caso defienda en el Demo Day.",
+    metricsNote: "Se llenan el 16 de octubre con los números que cada caso defienda en el Demo Day.",
     howTitle: "Cómo se mide",
     how: [
       "Demo en vivo: cada persona muestra su automatización funcionando.",
@@ -312,7 +313,7 @@ const es = {
       "Traspaso documentado: quién es el dueño, dónde vive y qué la rompe.",
     ],
     demoTag: "DEMO DAY",
-    demoDate: "09 OCT 2026 · BOGOTÁ",
+    demoDate: "16 OCT 2026 · BOGOTÁ",
     demoBody: "Demos en vivo, ROI por caso y entrega de runbooks.",
     videoLabel: "MICROTUTORIALES",
     videoTitle: "Sesenta segundos en Slack",
@@ -379,12 +380,12 @@ const en: typeof es = {
 
   hero: {
     eyebrow: "COLOMBIA · 2026 PILOT",
-    lines: ["Make.", "Measure.", "Share."],
+    lines: ["Understand.", "Apply.", "Build."],
     intro:
-      "An internal initiative for People/Ops to turn their judgment into AI-powered solutions: built, measured, and put into production.",
+      "A hands-on learning program created with People/Ops and shaped around the real needs of the cohort.",
     meta: [
-      { k: "CALENDAR", v: "SEP 02 — OCT 09, 2026" },
-      { k: "FORMAT", v: "12 TALKS + 5 DAYS" },
+      { k: "CALENDAR", v: "SEP 02 — OCT 16, 2026" },
+      { k: "FORMAT", v: "LEARNING JOURNEY + BUILD SPRINT" },
       { k: "PLACE", v: "BOGOTÁ · IN PERSON" },
     ],
     ctaPrimary: "Explore the program",
@@ -396,9 +397,9 @@ const en: typeof es = {
     inDays: "IN {n} DAYS",
     tomorrow: "TOMORROW",
     today: "TODAY",
-    hostsLabel: "Program image placeholders",
-    imagePrimary: "PRIMARY IMAGE",
-    imageSecondary: "SECONDARY IMAGE",
+    hostsLabel: "Real moments from the AI4All program",
+    imagePrimary: "COLLABORATIVE WORK",
+    imageSecondary: "TEAM EXPERIMENTATION",
     tickerLabel: "PROGRAM",
   },
 
@@ -406,7 +407,7 @@ const en: typeof es = {
     tag: "AI4ALL / MANIFESTO",
     a: "AI does not replace judgment.",
     b: "It amplifies it.",
-    body: "AI4All is a pilot for People/Ops Colombia to build its own AI automations. It starts with this team because they keep the daily operation running and know best which tasks are worth automating.",
+    body: "AI4All combines foundations, an understanding of real work, tools, systems thinking, and experimentation. It follows a clear direction while questions and needs surfaced by the cohort help shape what comes next.",
   },
 
   why: {
@@ -446,7 +447,7 @@ const en: typeof es = {
     phaseOne: {
       tag: "PHASE 01 · STRATEGIC FOUNDATION",
       title: "From zero to judgment",
-      meta: "12 talks · September 2 to October 1 · 3:00 to 4:30 p.m.",
+      meta: "12 meetings · September 2 to October 8 · Wednesdays and Thursdays · 3:00 to 4:30 p.m.",
       lead: "Understand AI, choose the right tool, and quantify the value of your own work.",
       lead2: "It closes with five personal use cases, prioritized and documented.",
       owner: "Designed and led by Daniela Ríos",
@@ -475,21 +476,21 @@ const en: typeof es = {
 
   program: {
     label: "06 / PROGRAM",
-    title: "Twelve talks. Twelve deliverables.",
-    lead: "Ninety minutes per session, always with live practice. No talk ends without something built.",
+    title: "From foundations to useful solutions.",
+    lead: "The journey moves from understanding AI and observing real work to experimenting, building, and sharing solutions.",
     stats: [
-      { v: 12, suffix: "", k: "TALKS" },
+      { v: 7, suffix: "", k: "LEARNING THEMES" },
       { v: 5, suffix: "", k: "WEEKS" },
-      { v: 90, suffix: "", k: "MINUTES PER SESSION" },
+      { v: 1, suffix: "", k: "COHORT" },
     ],
-    outcomesTitle: "By the end of Phase 1, each person can",
+    outcomesTitle: "The journey connects knowledge with application",
     outcomes: [
-      "Explain what generative AI is and how it differs from a search or a macro.",
-      "Name the available tools and know which one fits each case.",
-      "Tell automation, code, and AI apart, and know what using AI costs.",
-      "Quantify and communicate the value of their role in metrics and in money.",
-      "Recognize which tasks can be automated and which need human judgment.",
-      "Bring at least one documented use case of their own into Phase 2.",
+      "Understand how computers represent information and what makes AI different.",
+      "Recognize where AI creates value and where human judgment remains essential.",
+      "Map workflows, actors, rules, exceptions, and dependencies before automating.",
+      "Choose the right tool for the problem, not the other way around.",
+      "Turn real pain points into clearly defined opportunities and experiments.",
+      "Build, validate, and share solutions based on real work.",
     ],
     progressLabel: "PROGRESS",
     progressValue: "{done} of 12 talks",
@@ -622,8 +623,8 @@ const en: typeof es = {
 
   library: {
     label: "08 / LIVING LIBRARY",
-    title: "Everything we make stays here.",
-    lead: "The initiative page is continuously updated with every class. After each meeting, its slides, recordings, screenshots, templates, and artifacts are added here, along with visual refinements and finishing touches.",
+    title: "Everything we make feeds what comes next.",
+    lead: "The knowledge base, process inventory, validated repository, and experiments grow with every meeting and remain available for future cohorts.",
     filters: [
       { id: "all", label: "ALL" },
       { id: "slides", label: "SLIDES" },
@@ -652,6 +653,7 @@ const en: typeof es = {
     groupName: "People/Ops Colombia",
     groupPlace: "Bogotá",
     groupBody: "The pilot runs in person in Bogotá: same room, same hands on the keyboard. Working in the same space makes it possible to see the effect of each session up close, unblock people on the spot, and confirm the impact is real before scaling the program.",
+    groupPhotoAlt: "AI4All participants prototyping solutions together",
     groupStats: [
       { v: "05", k: "PEOPLE IN THE PILOT" },
       { v: "17", k: "IN-PERSON MEETINGS" },
@@ -662,14 +664,14 @@ const en: typeof es = {
 
   impact: {
     label: "01 / NORTH STAR",
-    title: "Three numbers on October 09.",
+    title: "Three numbers on October 16.",
     lead: "There is a single success metric: how many automations are still running in production at the end of Day 5.",
     metrics: [
       { v: "—", k: "AUTOMATIONS IN PRODUCTION" },
       { v: "—", k: "HOURS SAVED PER MONTH" },
       { v: "—", k: "DOCUMENTED ROI" },
     ],
-    metricsNote: "They get filled in on October 09 with the numbers each case presents at Demo Day.",
+    metricsNote: "They get filled in on October 16 with the numbers each case presents at Demo Day.",
     howTitle: "How it is measured",
     how: [
       "Live demo: each person shows their automation running.",
@@ -677,7 +679,7 @@ const en: typeof es = {
       "Documented handover: who owns it, where it lives, and what breaks it.",
     ],
     demoTag: "DEMO DAY",
-    demoDate: "OCT 09, 2026 · BOGOTÁ",
+    demoDate: "OCT 16, 2026 · BOGOTÁ",
     demoBody: "Live demos, ROI per case, and runbook handover.",
     videoLabel: "MICRO-TUTORIALS",
     videoTitle: "Sixty seconds on Slack",

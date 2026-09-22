@@ -1,5 +1,6 @@
 import type { CSSProperties } from "react";
 import { CalendarDays, MapPin, Users } from "lucide-react";
+import cohortPhoto from "../../Fotos/prototipado-web-en-equipo.jpeg";
 import { people, pick, type Lang } from "../content";
 import type { UICopy } from "../copy";
 
@@ -42,6 +43,12 @@ export function Team({ t, lang }: { t: UICopy; lang: Lang }) {
           style={{ "--d": "220ms" } as CSSProperties}
         >
           <div className="group-story">
+            <img
+              className="group-story-photo"
+              src={cohortPhoto}
+              alt={t.team.groupPhotoAlt}
+              loading="lazy"
+            />
             <div className="group-head">
               <span className="label label-light">
                 <Users size={14} strokeWidth={1.8} />
