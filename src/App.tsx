@@ -15,6 +15,7 @@ import { Library } from "./sections/Library";
 import { Team } from "./sections/Team";
 import { Impact } from "./sections/Impact";
 import { Ops, Responsible } from "./sections/Ops";
+import { PhotoMoment } from "./sections/Moments";
 
 export default function App() {
   const [lang, setLang] = useState<Lang>("es");
@@ -78,9 +79,11 @@ export default function App() {
         <Hero t={t} lang={lang} now={now} />
         <Team t={t} lang={lang} />
         <Impact t={t} />
+        <PhotoMoment kind="workshop" t={t} />
         <Manifesto t={t} />
         <Model t={t} />
         <Why t={t} />
+        <PhotoMoment kind="definition" t={t} />
         <Method t={t} />
         <Cases t={t} />
         <div className="phase-divider phase-divider-one">
@@ -95,6 +98,7 @@ export default function App() {
           <p>{t.dividers.two.body}</p>
         </div>
         <Challenge t={t} lang={lang} now={now} />
+        <PhotoMoment kind="foundations" t={t} />
         <Library t={t} lang={lang} now={now} />
         <Ops t={t} lang={lang} />
         <Responsible t={t} />

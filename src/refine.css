@@ -160,6 +160,138 @@
   display: none;
 }
 
+/* Momentos reales repartidos a lo largo del recorrido. */
+.page-moment {
+  position: relative;
+  padding: clamp(44px, 6vw, 88px) var(--pad);
+  overflow: hidden;
+}
+
+.page-moment-figure {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: minmax(0, 1.75fr) minmax(190px, 0.45fr);
+  gap: clamp(24px, 4vw, 64px);
+  align-items: end;
+  width: min(100%, 1180px);
+  margin: 0 auto;
+}
+
+.page-moment-photo {
+  position: relative;
+  min-width: 0;
+}
+
+.page-moment-photo img {
+  display: block;
+  width: 100%;
+  height: clamp(230px, 29vw, 420px);
+  object-fit: cover;
+  box-shadow: 18px 18px 0 var(--moment-shadow, var(--red-tint));
+  transition: transform 0.7s var(--ease), filter 0.7s var(--ease);
+}
+
+.page-moment-photo:hover img {
+  transform: translateY(-4px) rotate(-0.35deg);
+  filter: saturate(1.06);
+}
+
+.page-moment-number {
+  position: absolute;
+  top: -18px;
+  left: -18px;
+  display: grid;
+  place-items: center;
+  width: 62px;
+  height: 62px;
+  color: var(--white);
+  background: var(--red);
+  border-radius: 50%;
+  font-family: var(--mono);
+  font-size: 12px;
+  font-weight: 700;
+  box-shadow: 0 12px 28px rgba(33, 30, 30, 0.18);
+}
+
+.page-moment figcaption {
+  padding-bottom: 8px;
+}
+
+.page-moment figcaption span,
+.page-moment figcaption small {
+  display: block;
+  font-family: var(--mono);
+  font-size: 9px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.page-moment figcaption span {
+  color: var(--red);
+}
+
+.page-moment figcaption strong {
+  display: block;
+  margin: 12px 0 18px;
+  font-size: clamp(24px, 2.5vw, 38px);
+  line-height: 1;
+  letter-spacing: -0.045em;
+}
+
+.page-moment figcaption small {
+  color: var(--n-darkest);
+}
+
+.page-moment-workshop {
+  --moment-shadow: var(--red-tint);
+  background: var(--cool-light);
+}
+
+.page-moment-workshop::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 9%;
+  width: 24%;
+  height: 6px;
+  background: var(--red);
+}
+
+.page-moment-definition {
+  --moment-shadow: var(--red-darkest);
+  color: var(--paper);
+  background: var(--ink);
+}
+
+.page-moment-definition .page-moment-figure {
+  grid-template-columns: minmax(190px, 0.45fr) minmax(0, 1.75fr);
+}
+
+.page-moment-definition .page-moment-photo {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.page-moment-definition figcaption {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.page-moment-definition figcaption small {
+  color: rgba(252, 251, 245, 0.52);
+}
+
+.page-moment-foundations {
+  --moment-shadow: var(--ink);
+  background: var(--red-tint);
+}
+
+.page-moment-foundations .page-moment-figure {
+  width: min(88%, 1100px);
+  margin-right: var(--pad);
+}
+
 .team {
   position: relative;
   padding-top: clamp(70px, 8vw, 118px);
@@ -662,6 +794,45 @@
 
   .hero-host-2 {
     width: 58%;
+  }
+
+  .page-moment {
+    padding: 56px 24px 62px;
+  }
+
+  .page-moment-figure,
+  .page-moment-definition .page-moment-figure {
+    grid-template-columns: 1fr;
+    gap: 28px;
+    width: 100%;
+  }
+
+  .page-moment-definition .page-moment-photo,
+  .page-moment-definition figcaption {
+    grid-column: 1;
+    grid-row: auto;
+  }
+
+  .page-moment-definition figcaption {
+    order: 2;
+  }
+
+  .page-moment-foundations .page-moment-figure {
+    width: 100%;
+    margin: 0;
+  }
+
+  .page-moment-photo img {
+    height: 220px;
+    box-shadow: 10px 10px 0 var(--moment-shadow, var(--red-tint));
+  }
+
+  .page-moment-number {
+    top: -13px;
+    left: -10px;
+    width: 48px;
+    height: 48px;
+    font-size: 10px;
   }
 
   .hero-host-copy {

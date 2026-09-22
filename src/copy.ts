@@ -34,6 +34,14 @@ const es = {
     hostsLabel: "Momentos reales del programa AI4All",
     imagePrimary: "TRABAJO COLABORATIVO",
     imageSecondary: "EXPERIMENTACIÓN EN EQUIPO",
+    collageImages: [
+      "Trabajo colaborativo",
+      "Práctica con ChatGPT",
+      "Prototipado en equipo",
+      "Participantes del taller",
+      "Sesión virtual: qué es la IA",
+      "Sesión virtual: fundamentos",
+    ],
     tickerLabel: "PROGRAMA",
   },
 
@@ -400,6 +408,14 @@ const en: typeof es = {
     hostsLabel: "Real moments from the AI4All program",
     imagePrimary: "COLLABORATIVE WORK",
     imageSecondary: "TEAM EXPERIMENTATION",
+    collageImages: [
+      "Collaborative work",
+      "ChatGPT practice",
+      "Team prototyping",
+      "Workshop participants",
+      "Virtual session: what AI is",
+      "Virtual session: foundations",
+    ],
     tickerLabel: "PROGRAM",
   },
 
